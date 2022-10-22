@@ -1,0 +1,43 @@
+body{
+    background-color:#F5F5DC;
+}
+#navbar{
+    width: 45%;
+    max-width: 450px;
+    display: block;
+    padding: 5px -15px;
+}
+#navbar ul li{
+    border: 1px solid black;
+    padding: 3px;
+}
+@media(max-width: 760px){
+    body{
+      background-color: white;
+      color: black;
+    }
+}
+header{
+    background-color: #DCDCDC;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid gray;
+    max-width: 500px;
+    text-align: center;
+    text-shadow: 0 0 8px #D2691E;
+}
+.nav-link{
+    color: black;
+    font-size: 18px;
+ }
+.code{
+    width: 100%;
+    background-color: #FFE4C4;
+    padding: 5px;
+    font-size: 14px;
+}
+p{
+    font-size: 16px;
+    margin-left: 20px;
+}
